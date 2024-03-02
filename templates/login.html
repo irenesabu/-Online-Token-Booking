@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BOOKING FORM:</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <fORM action="/submit" method ="POST">
+    <fieldset>
+      <legend>BOOKING SLOTS</legend>
+      <p>
+        ENTER YOUR NAME:<input type="text" name="fname" />
+      </p>
+      <div>
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+          <option value="male" selected>Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <p>
+        <div>
+          <label for="dob">Date Of Birth:</label>
+          <input type="date" name="dob" id="dob">
+        </div>
+      </p>
+      <p>
+        <div>
+          <label for="age">Age:</label>
+          <input type="number" name="age" id="age">
+        </div>
+      </p>
+      <p>
+        <div>
+          <label for="phoneno">Phone No:</label>
+          <input type="number" name="phoneno" id="phoneno">
+        </div>
+      </p>
+      <p>
+        <div>
+          <label for="regno">Reg No:</label>
+          <input type="text" name="reg_no" id="regno" placeholder="enter your reg no.">
+        </div>
+      </p>
+      <div>
+        Choose Department:<br>
+        <li> <input type="checkbox" name="department" value="General" />General</li>
+        <li> <input type="checkbox" name="department" value="ENT" />ENT</li>
+        <li> <input type="checkbox" name="department" value="Gynecology" />Gynecology</li>
+        <li> <input type="checkbox" name="department" value="Orthodontics" />Orthodontics</li>
+        <li> <input type="checkbox" name="department" value="Neurology" />Neurology</li>
+        <li> <input type="checkbox" name="department" value="Oncology" />Oncology</li>
+      </div> 
+      <p>
+        <button type="Submit">Submit</button>
+      </p>
+    </fieldset>
+  </fORM>
+  <script src="./index.js"></script>
+</body>
+</html>
+    
