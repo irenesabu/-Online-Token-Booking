@@ -12,3 +12,8 @@
  * Appointment booking and scheduling
  * Responsive and intuitive user interface
 
+# STACK
+ * HTML
+ * JAVASCRIPT
+ * PYTHON
+ * MYSQL
